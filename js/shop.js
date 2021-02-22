@@ -97,13 +97,13 @@ function show() {
                         <button class="del">批量删除<button>
                     </div>
                     <div class="goods-message">
-                        <span>商品种类：${cartList.length}<span>
-                        <span class="ml5">所选商品价格：￥${sum[1]}<span>
-                        <span>总价：￥${sums}</span>
+                        <span>商品种类：${cartList.length} 种<span>
+                        <span class="ml5">所选商品价格：￥${sum[1]} 元<span>&nbsp;&nbsp;
+                        <span>总价：￥${sums} 元</span>
                     </div>
                     <div class="goods-settlement">
-                        <button class="jiesuan">结算<button>
-                        <button class="qingkong">清空购物车<button>
+                        <button class="jiesuan">结算</button>
+                        <!-- <button class="qingkong">清空购物车</button> -->
                     <div>
                 </div>
         `;
@@ -222,15 +222,15 @@ box.onclick = function(e) {
             show()
         }
     }
-    if (target.innerHTML == "清空购物车") {
-        if (confirm("你确定要清空购物车吗？")) {
-            //重新把当前操作完毕的数组添加到localStorage中
-            localStorage.setItem("cartList1", JSON.stringify([]))
-                //调用show方法，重新把页面再次渲染
-            show()
-            location.reload()
-        }
-    }
+    // if (target.innerHTML == "清空购物车") {
+    //     if (confirm("你确定要清空购物车吗？")) {
+    //         //重新把当前操作完毕的数组添加到localStorage中
+    //         localStorage.setItem("cartList1", JSON.stringify([]))
+    //             //调用show方法，重新把页面再次渲染
+    //         show()
+    //         location.reload()
+    //     }
+    // }
 };
 //统计所选商品种类和价格
 function total() {

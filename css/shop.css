@@ -310,7 +310,7 @@ input::placeholder {
     width: 60px;
     height: 30px;
     border-radius: 5px;
-    background-color: #f77070;
+    /* background-color: #f77070; */
     font-size: 14px;
 }
 
@@ -353,9 +353,12 @@ input::placeholder {
     border-radius: 5px;
 }
 
-.goods-settlement,
 .goods-message {
     flex: 2;
+}
+
+.goods-settlement {
+    flex: 1;
 }
 
 .goods-message .ml5 {
@@ -365,19 +368,20 @@ input::placeholder {
 .goods-settlement .jiesuan {
     width: 100px;
     height: 40px;
-    margin-right: 40px;
-    border-radius: 10px;
-    background-color: #08cc43;
+    /* margin-right: 40px; */
+    /* border-radius: 10px; */
+    background-color: #F75000;
     font-size: 14px;
 }
 
-.goods-settlement .qingkong {
+
+/* .goods-settlement .qingkong {
     width: 100px;
     height: 40px;
     border-radius: 10px;
     background-color: #f77070;
     font-size: 14px;
-}
+} */
 
 
 /* main end */
