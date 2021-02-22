@@ -1,0 +1,78 @@
+.w {
+    width: 1247px;
+    margin: 0 auto;
+}
+
+body,
+html {
+    width: 100%;
+    font-family: "Helvetica Neue", Helvetica, Arial, "Hiragino Sans GB", "Hiragino Sans GB W3", "Microsoft YaHei UI", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+    background: #fff!important;
+    box-sizing: border-box;
+}
+
+#header .w {
+    padding: 0 15px;
+    margin: 0 auto;
+    height: 70px;
+    line-height: 70px;
+    overflow: hidden;
+}
+
+#header .header-l {
+    float: left;
+    width: 900px;
+    height: 70px;
+}
+
+#header .logo {
+    float: left;
+    line-height: 69px;
+}
+
+#header .logo img {
+    width: 80px;
+    margin-right: 30px;
+}
+
+#header .header-l .header-text p {
+    font-size: 20px;
+    color: #111;
+}
+
+#header .header-r {
+    float: right;
+}
+
+#header .header-r a {
+    font-size: 14px;
+    color: #005aaa;
+}
+
+#footer {
+    width: 100%;
+    background-color: #000;
+}
+
+#footer .w {
+    height: 60px;
+    line-height: 60px;
+    color: #888;
+}
+
+#footer .w a {
+    color: #888;
+}
+
+.footer-l {
+    float: left;
+}
+
+.footer-l a:nth-child(2n),
+.footer-r span:nth-of-type(1) {
+    padding: 0 10px;
+}
+
+.footer-r {
+    float: right
+}

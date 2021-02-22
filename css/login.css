@@ -1,0 +1,72 @@
+#banner {
+    background-color: #eee;
+    overflow: hidden;
+}
+
+.banner-title {
+    color: #111;
+    font-size: 20px;
+    text-align: center;
+    padding: 60px 0;
+}
+
+.banner-text {
+    position: relative;
+    width: 960px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding-left: 240px;
+    padding-top: 50px;
+    margin-bottom: 80px;
+}
+
+.banner-text i {
+    position: absolute;
+    cursor: pointer;
+    top: 150px;
+    right: 315px;
+}
+
+.banner-text img {
+    width: 30px;
+    height: 30px;
+}
+
+.banner-text span {
+    font-size: 14px;
+    color: #444;
+    margin-right: 20px;
+}
+
+.banner-text input {
+    width: 360px;
+    height: 48px;
+    border-bottom: 1px solid #eee;
+    margin-top: 20px;
+}
+
+.banner-text button {
+    width: 360px;
+    height: 48px;
+    border-radius: 24px;
+    color: #fff;
+    font-size: 18px;
+    background-color: #c8c8c8;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.banner-text .check {
+    height: 40px;
+    line-height: 40px;
+    overflow: hidden;
+    margin-top: 30px;
+}
+
+.banner-text .check input {
+    width: 20px;
+    height: 20px;
+    float: left;
+    margin-top: 10px;
+    margin-right: 10px;
+}
