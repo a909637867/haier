@@ -65,8 +65,12 @@ btn.onclick = function() {
                 setCookie("user", u1)
                 alert("登录成功")
             } else {
-                alert("登录失败")
-                location.reload();
+                alert("账号或密码输入有误")
+                    // location.reload();
+                check.checked = false;
+                pass.value = '';
+                btn.disabled = true;
+                btn.style.backgroundColor = '#c8c8c8'
             }
         }
     })

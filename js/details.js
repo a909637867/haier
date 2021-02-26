@@ -83,6 +83,7 @@ if (search) {
             </div>
         </div>
     </div>
+    ${dt.xiangqing}
     `;
         //把当前内容添加到大盒子中
         box.innerHTML = str;
